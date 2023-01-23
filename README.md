@@ -4,7 +4,7 @@ Facemask detection
 YOLOv5 model trained on a custom dataset to detect human faces and label them according to the face masks: mask on, off or weared incorrectly.
 
 Project Organization
-------------
+==============================
 
 
 ├── README.md          <- The top-level README for developers using this project.
