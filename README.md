@@ -7,15 +7,17 @@ Project Organization
 ==============================
 
    
-    ├── README.md          <- The top-level README for developers using this project.
+    ├── README.md                    <- The top-level README for developers using this project.
     │
-    ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
-    │                         generated with `pip freeze > requirements.txt`
+    ├── GETTING_STARTED.rst          <- About startin app
     │
-    ├── setup.py           <- makes project pip installable (pip install -e .) so src can be imported
+    ├── requirements.txt             <- The requirements file for reproducing the analysis environment, e.g.
+    │                                  generated with `pip freeze > requirements.txt`
     │
-    ├── Car_plates_reading      <- Source code for use in this project.
-    │   ├── __init__.py    <- Makes src a Python module
+    ├── setup.py                     <- makes project pip installable (pip install -e .) so src can be imported
+    │
+    ├── Facemask_checking            <- Source code for use in this project.
+    │   ├── __init__.py              <- Makes src a Python module
     │   │
     │   ├── data                     <- Scripts to handle data
     │   │   └── create_yaml.py       <- Creates .yaml file required for yolo training 
@@ -27,10 +29,10 @@ Project Organization
     │   ├── features                     <- Scripts to turn raw data into features for modeling
     │   │   └── choose_loading.py        <- Used to choose between training and loading model
     │   │   └── choose_mode.py           <- Choose mode to use
-    │   │   └── cv2_handling.py          <- Cv2 script to detect pkates on a video/camera
+    │   │   └── cv2_handling.py          <- Cv2 script to detect masks on a video/camera
     │   │   └── get_latest_weights.py    <- Load latest weights
-    │   │   └── image_mode.py            <- Script to detect plates on an image
-    │   │   └── plate_tracking.py        <- Simple plates tracking for video/camera mode
+    │   │   └── image_mode.py            <- Script to detect masks on an image
+    │   │  
     │   │
     │   ├── model                  <- Scripts to train/load model
     │   │   │── train_model.py     <- Train new model               
